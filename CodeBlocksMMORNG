@@ -214,7 +214,7 @@ int main ()
 
     }
     /////////////////////////////////////////////////////////////////////////////////
-    if(heart==0)
+    if(heart==0)//this checkes if you are out of hearts and displays the followning text if the statement is true and it's game over. Break heare isn't nessesary becuase the if is already 
     {
         cout<<endl;
     }
