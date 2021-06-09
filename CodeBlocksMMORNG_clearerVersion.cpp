@@ -116,7 +116,7 @@ int main ()
 
     cout<<endl<<endl<<"You are now entering the Guard Mountains"<<endl;// text line
 
-    for(int i=0; i<8; i++)// for lines 119, 121, 122 is where we use a loop for and give the letter "i" values which represent the odds of a certain encounter happening. We use the command rand to generate a random number between 1 and 12. Here is how we distributed the odds in the first round: the chance of getting into a regular encounter is 6/12, the chances of loosing a heart is 3/12 and getting the secret encounter is 3/12 3/12
+    for(int i=0; i<6; i++)// for lines 119, 121, 122 is where we use a loop for and give the letter "i" values which represent the odds of a certain encounter happening. We use the command rand to generate a random number between 1 and 12. Here is how we distributed the odds in the first round: the chance of getting into a regular encounter is 6/12, the chances of loosing a heart is 3/12 and getting the secret encounter is 3/12 3/12
     {
         srand(time(0));
         int chance1 = rand() % 12 + 1;
